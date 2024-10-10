@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-               BuildableName = "kanal_mobile.app"
-               BlueprintName = "kanal_mobile"
-               ReferencedContainer = "container:kanal_mobile.xcodeproj">
+               BuildableName = "DesabhimaniMobile.app"
+               BlueprintName = "DesabhimaniMobile"
+               ReferencedContainer = "container:DesabhimaniMobile.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "00E356ED1AD99517003FC87E"
-               BuildableName = "kanal_mobileTests.xctest"
-               BlueprintName = "kanal_mobileTests"
-               ReferencedContainer = "container:kanal_mobile.xcodeproj">
+               BuildableName = "DesabhimaniMobileTests.xctest"
+               BlueprintName = "DesabhimaniMobileTests"
+               ReferencedContainer = "container:DesabhimaniMobile.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,9 +55,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "kanal_mobile.app"
-            BlueprintName = "kanal_mobile"
-            ReferencedContainer = "container:kanal_mobile.xcodeproj">
+            BuildableName = "DesabhimaniMobile.app"
+            BlueprintName = "DesabhimaniMobile"
+            ReferencedContainer = "container:DesabhimaniMobile.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -72,9 +72,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "kanal_mobile.app"
-            BlueprintName = "kanal_mobile"
-            ReferencedContainer = "container:kanal_mobile.xcodeproj">
+            BuildableName = "DesabhimaniMobile.app"
+            BlueprintName = "DesabhimaniMobile"
+            ReferencedContainer = "container:DesabhimaniMobile.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
