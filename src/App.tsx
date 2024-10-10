@@ -7,6 +7,7 @@ import GetStarted from './pages/getStarted';
 import { PersistGate } from 'redux-persist/integration/react';
 import { store, persistor } from './slice/store';
 import { Routes } from './route';
+import { GraphQLClient,ClientContext } from 'graphql-hooks';
 
 const Stack = createStackNavigator();
 export const navigationRef = createNavigationContainerRef();
@@ -43,8 +44,13 @@ export function onEditSuccess(name: string, index: number) {
     );
   }
 }
+
+const client = new GraphQLClient({
+  url:"https://admin-dev.deshabhimani.info/api/graphql"
+})
 function App(): JSX.Element {
   return (
+    <ClientContext.Provider value={client}>
     <Provider store={store}>
       <PersistGate loading={null} persistor={persistor}>
         <NavigationContainer ref={navigationRef}>
@@ -54,6 +60,7 @@ function App(): JSX.Element {
         </NavigationContainer>
       </PersistGate>
     </Provider>
+    </ClientContext.Provider>
   );
 }
 
