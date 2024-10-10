@@ -78,9 +78,9 @@ android {
     buildToolsVersion rootProject.ext.buildToolsVersion
     compileSdk rootProject.ext.compileSdkVersion
 
-    namespace "com.kanal_mobile"
+    namespace "com.deshabhimani_mobile"
     defaultConfig {
-        applicationId "com.kanal_mobile"
+        applicationId "com.deshabhimani_mobile"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
